@@ -35,13 +35,13 @@ Continuous integration（简称 CI）：
 - 发现风格错误
 - 自动纠正错误
 
-![](../images/eslint.png)
+![](/images/eslint.png)
 
 ---
 
 ## 课堂练习：ESLint 的用法
 
-进入`demos/eslint-demo`目录，按照[《操作指南》](../demos/README.md#eslint)，完成练习。
+进入`demos/eslint-demo`目录，按照[《操作指南》](#docs/practice#Eslint)，完成练习。
 
 ---
 
