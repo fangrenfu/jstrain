@@ -3,8 +3,8 @@
 ## 目录
 
 - 前端开发的历史和趋势
-  - [Backbone](#docs/pratice#backbone)
-  - [Angular](#angular)
+  - [Backbone](#docs/practice#backbone)
+  - [Angular](#docs/practice#angular)
   - [Vue](#vue)
 - React 技术栈
   - [JSX](#jsx)
