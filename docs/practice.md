@@ -1,31 +1,5 @@
 # 课堂练习的操作指导
 
-## 目录
-
-- 前端开发的历史和趋势
-  - [Backbone](#docs/practice#Backbone)
-  - [Angular](#docs/practice#Angular)
-  - [Vue](#docs/practice#Vue)
-- React 技术栈
-  - [JSX](practice##Jsx)
-  - [React 组件语法](#docs/practice#React-组件语法)
-  - [React 组件的参数](#docs/practice#React-组件的参数)
-  - [React 组件的状态](#docs/practice#React-组件的状态)
-  - [React 组件实战](#docs/practice#React-组件实战)
-  - [React 组件的生命周期](#docs/practice#React-组件的生命周期)
-  - [ReCharts](#docs/practice#Recharts)
-  - [MobX](#docs/practice#Mobx)
-  - [Redux](#docs/practice#Redux)
-- Node 开发
-  - [Simple App](#docs/practice#Simple-app)
-  - [REST API](#docs/practice#Rest-api)
-  - [Express](#docs/practice#Express)
-- 前端工程简介
-  - [ESLint](#docs/practice#Eslint)
-  - [Mocha](#docs/practice#Mocha)
-  - [Nightmare](#docs/practice#Nightmare)
-  - [Travis CI](#docs/practice#Travis-ci)
-
 ## Backbone
 
 ### 实验目的

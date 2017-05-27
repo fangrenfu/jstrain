@@ -35,7 +35,7 @@ Continuous integration（简称 CI）：
 - 发现风格错误
 - 自动纠正错误
 
-![](./images/eslint.png)
+![](../images/eslint.png)
 
 ---
 
@@ -99,7 +99,7 @@ Mocha 是目前最常用的测试框架。
 
 ## 课堂练习：Mocha 的用法
 
-进入`demos/mocha-demo`目录，按照[《操作指南》](../demos/README.md#mocha)，练习写单元测试。
+进入`demos/mocha-demo`目录，按照[《操作指南》](#docs/practice#Mocha)，练习写单元测试。
 
 ---
 
