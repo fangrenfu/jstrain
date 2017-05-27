@@ -5,26 +5,26 @@
 - 前端开发的历史和趋势
   - [Backbone](#docs/practice#Backbone)
   - [Angular](#docs/practice#Angular)
-  - [Vue](#vue)
+  - [Vue](#docs/practice#Vue)
 - React 技术栈
-  - [JSX](#jsx)
-  - [React 组件语法](#react-组件语法)
-  - [React 组件的参数](#react-组件的参数)
-  - [React 组件的状态](#react-组件的状态)
-  - [React 组件实战](#react-组件实战)
-  - [React 组件的生命周期](#react-组件的生命周期)
-  - [ReCharts](#recharts)
-  - [MobX](#mobx)
-  - [Redux](#redux)
+  - [JSX](#Jsx)
+  - [React 组件语法](#docs/practice#react-组件语法)
+  - [React 组件的参数](#docs/practice#react-组件的参数)
+  - [React 组件的状态](#docs/practice#react-组件的状态)
+  - [React 组件实战](#docs/practice#react-组件实战)
+  - [React 组件的生命周期](#docs/practice#react-组件的生命周期)
+  - [ReCharts](#docs/practice#recharts)
+  - [MobX](#docs/practice#mobx)
+  - [Redux](#docs/practice#redux)
 - Node 开发
-  - [Simple App](#simple-app)
-  - [REST API](#rest-api)
-  - [Express](#express)
+  - [Simple App](#docs/practice#simple-app)
+  - [REST API](#docs/practice#rest-api)
+  - [Express](#docs/practice#express)
 - 前端工程简介
-  - [ESLint](#eslint)
-  - [Mocha](#mocha)
-  - [Nightmare](#nightmare)
-  - [Travis CI](#travis-ci)
+  - [ESLint](#docs/practice#eslint)
+  - [Mocha](#docs/practice#mocha)
+  - [Nightmare](#docs/practice#nightmare)
+  - [Travis CI](#docs/practice#travis-ci)
 
 ## Backbone
 
