@@ -3,7 +3,7 @@
 ## 目录
 
 - 前端开发的历史和趋势
-  - [Backbone](#backbone)
+  - [Backbone](#docs/pratice#backbone)
   - [Angular](#angular)
   - [Vue](#vue)
 - React 技术栈
