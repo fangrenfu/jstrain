@@ -41,7 +41,7 @@ Continuous integration（简称 CI）：
 
 ## 课堂练习：ESLint 的用法
 
-进入`demos/eslint-demo`目录，按照[《操作指南》](#docs/practice#ESlint)，完成练习。
+进入`demos/eslint-demo`目录，按照[《操作指南》](#docs/practice#ESLint)，完成练习。
 
 ---
 
