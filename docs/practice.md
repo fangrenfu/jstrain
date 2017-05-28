@@ -612,7 +612,7 @@ console.log('Magic happens on port ' + port);
 $ node app1.js
 ```
 
-浏览器访问`localhost:8080/home`，看看是否输出`Hello World`。
+浏览器访问[`localhost:8080/home`](http://localhost:8080/home)，看看是否输出`Hello World`。
 
 然后，命令行下按 Ctrl + C，退出这个进程。
 
@@ -629,7 +629,7 @@ $ set PORT=7070
 $ node app1.js
 ```
 
-浏览器就可以访问`localhost:7070/home`了。
+浏览器就可以访问[`localhost:7070/home`](http://localhost:7070/home)了。
 
 然后，命令行下按 Ctrl + C，退出这个进程。
 
@@ -651,7 +651,7 @@ router.get('/:name', function(req, res) {
 $ node app2.js
 ```
 
-浏览器访问`localhost:8080/home/张三`，看看是否输出`Hello 张三`。
+浏览器访问[`localhost:8080/home/张三`](http://localhost:8080/home/张三)，看看是否输出`Hello 张三`。
 
 然后，命令行下按 Ctrl + C，退出这个进程。
 
