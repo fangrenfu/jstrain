@@ -78,7 +78,7 @@ Babel 用来在浏览器转换 JSX 语法，如果服务器已经转好了，浏
 
 ## 课堂练习：JSX 语法
 
-浏览器打开`demos/jsx-demo/index.html`，按照[《操作说明》](../demos/README.md#jsx)，完成练习。
+浏览器打开[demos/jsx-demo/index.html](demos/jsx-demo/index.html)，按照[《操作说明》](#docs/practice#Jsx)，完成练习。
 
 ```javascript
 ReactDOM.render(
