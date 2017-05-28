@@ -78,7 +78,7 @@ Babel 用来在浏览器转换 JSX 语法，如果服务器已经转好了，浏
 
 ## 课堂练习：JSX 语法
 
-浏览器打开[demos/jsx-demo/index.html](demos/jsx-demo/index.html)，按照[《操作说明》](#docs/practice#Jsx)，完成练习。
+浏览器打开[demos/jsx-demo/index.html](demos/jsx-demo/index.html)，按照[《操作说明》](#docs/practice#JSX)，完成练习。
 
 ```javascript
 ReactDOM.render(
@@ -93,7 +93,7 @@ ReactDOM.render(
 
 React 允许用户定义自己的组件，插入网页。
 
-浏览器打开`demos/react-component-demo/index1.html`，按照[《操作说明》](../demos/README.md#react-组件语法)，仔细查看源码。
+浏览器打开[demos/react-component-demo/index1.html]，按照[《操作说明》](../demos/README.md#react-组件语法)，仔细查看源码。
 
 ```javascript
 class MyTitle extends React.Component {
