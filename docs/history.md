@@ -162,7 +162,7 @@ App.Router = Backbone.Router.extend({
 
 ## 示例：Backbone Router
 
-打开`demos/backbone-demo/index.html`，按照[《操作说明》](../demos/README.md#backbone)，查看示例。
+打开[demos/backbone-demo/index.html](demos/backbone-demo/index.html)，按照[《操作说明》](#docs/practice#Backbone)，查看示例。
 
 ![](./images/backbone-demo.png)
 
