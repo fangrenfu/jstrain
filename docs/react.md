@@ -192,7 +192,7 @@ React-Bootstrap：https://react-bootstrap.github.io/
 
 ReCharts 是一个 React 图表组件库。http://recharts.org/
 
-浏览器打开[demos/recharts-demo/index.html](demos/recharts-demo/index.html)，按照[《操作说明》](#docs/practice#Recharts)，仔细查看源码，体会 JSX 语法对表达复杂组件的优势。
+浏览器打开[demos/recharts-demo/index.html](demos/recharts-demo/index.html)，按照[《操作说明》](#docs/practice#ReCharts)，仔细查看源码，体会 JSX 语法对表达复杂组件的优势。
 
 ```html
 <LineChart width={1000} height={400} data={data}>
@@ -340,7 +340,7 @@ person.name = "李四";
 
 ## 示例：MobX
 
-进入[demos/mobx-demo](demos/mobx-demo)目录，按照[《操作说明》](#docs/practice#Mobx)，理解 MobX 框架。
+进入`demos/mobx-demo`目录，按照[《操作说明》](#docs/practice#MobX)，理解 MobX 框架。
 
 ---
 
@@ -383,7 +383,7 @@ Redux 层保存所有状态，React 组件拿到状态以后，渲染出 HTML �
 
 ## 示例：Redux
 
-进入[demos/redux-demo](demos/redux-demo)目录，按照[《操作说明》](#docs/practice#Redux)，理解 Redux 框架。
+进入`demos/redux-demo`目录，按照[《操作说明》](#docs/practice#Redux)，理解 Redux 框架。
 
 ---
 
