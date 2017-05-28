@@ -222,7 +222,7 @@ Google 公司推出的 Angular 是最流行的 MVVM 前端框架。
 
 ## 示例：Angular 的双向绑定
 
-浏览器打开`demos/angular-demo/index.html`，可以看到一个输入框。
+浏览器打开[demos/angular-demo/index.html](demos/angular-demo/index.html)，可以看到一个输入框。
 
 ![](./images/angular-demo.png)
 
@@ -258,7 +258,7 @@ Vue.js 是现在很热门的一种前端 MVVM 框架。
 
 Vue 的模板与数据，是双向绑定的。
 
-打开`demos/vue-demo/index1.html`，按照[《操作说明》](../demos/README.md#vue)，查看示例。
+打开[demos/vue-demo/index1.html](demos/vue-demo/index1.html)，按照[《操作说明》](#docs/practice#Vue)，查看示例。
 
 ![](./images/vue-demo.png)
 
