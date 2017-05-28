@@ -325,7 +325,7 @@ function router() {
       Prism.highlightElement(this);
     });
 
-    // 加载disqus
+/*    // 加载disqus  讨论插件无法访问
     (function() {
       // http://docs.disqus.com/help/2/
       window.disqus_shortname = 'es6';
@@ -341,7 +341,7 @@ function router() {
         dsq.src = 'http://' + window.disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       })();
-    })();
+    })();*/
 
     var perc = ditto.save_progress ? store.get('page-progress') || 0 : 0;
 
