@@ -93,7 +93,7 @@ ReactDOM.render(
 
 React 允许用户定义自己的组件，插入网页。
 
-浏览器打开[](demos/react-component-demo/index1.html)，按照[《操作说明》](../demos/README.md#react-组件语法)，仔细查看源码。
+浏览器打开![](demos/react-component-demo/index1.html)，按照[《操作说明》](../demos/README.md#react-组件语法)，仔细查看源码。
 
 ```javascript
 class MyTitle extends React.Component {
