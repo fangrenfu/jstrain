@@ -8,9 +8,9 @@
 
 ### 操作步骤
 
-1. 浏览器打开[`demos/backbone-demo/index.html`](./backbone-demo/index.html)
+1. 浏览器打开[`demos/backbone-demo/index.html`](demos/backbone-demo/index.html)
 1. 点击页面上的链接，注意浏览器 URL 的变化
-1. 仔细查看[`js/main.js`](./backbone-demo/js/main.js)的源码，看懂 Router 组件的使用方式
+1. 仔细查看[`js/main.js`](demos/backbone-demo/js/main.js)的源码，看懂 Router 组件的使用方式
 
 ## Angular
 
@@ -20,9 +20,9 @@
 
 ### 操作步骤
 
-1. 浏览器打开[`demos/angular-demo/index.html`](./angular-demo/index.html)
+1. 浏览器打开[`demos/angular-demo/index.html`](demos/angular-demo/index.html)
 1. 在输入框填入内容，注意页面变化
-1. 查看[`index.html`](./angular-demo/index.html)的源码，理解 Angular 对 HTML 标签的增强
+1. 查看[`index.html`](demos/angular-demo/index.html)的源码，理解 Angular 对 HTML 标签的增强
 
 ## Vue
 
@@ -32,14 +32,14 @@
 
 ### 操作步骤
 
-1. 浏览器打开[`demos/vue-demo/index1.html`](./vue-demo/index1.html)
+1. 浏览器打开[`demos/vue-demo/index1.html`](demos/vue-demo/index1.html)
 1. 在输入框填入内容，注意页面变化
-1. 查看[`app1.js`](./vue-demo/app1.js)，理解 Vue 组件的基本写法
+1. 查看[`app1.js`](demos/vue-demo/app1.js)，理解 Vue 组件的基本写法
 
 ### 注意事项
 
-1. [`index2.html`](./vue-demo/index2.html)是一个稍微复杂的例子，模板如何绑定数据对象的一个字段。
-2. [`index3.html`](./vue-demo/index3.html)是事件绑定模板的例子。
+1. [`index2.html`](demos/vue-demo/index2.html)是一个稍微复杂的例子，模板如何绑定数据对象的一个字段。
+2. [`index3.html`](demos/vue-demo/index3.html)是事件绑定模板的例子。
 
 ## JSX
 
@@ -49,7 +49,7 @@
 
 ### 操作步骤
 
-1. 浏览器打开`demos/jsx-demo/index.html`，仔细查看源码。
+1. 浏览器打开[`demos/jsx-demo/index.html`](demos/jsx-demo/index.html)，仔细查看源码。
 
 ### 注意事项
 
@@ -67,7 +67,7 @@
 
 ### 操作步骤
 
-1. 浏览器打开`demos/react-component-demo/index1.html`，仔细查看源码。
+1. 浏览器打开[`demos/react-component-demo/index1.html`](demos/react-component-demo/index1.html)，仔细查看源码。
 
 ### 注意事项
 
@@ -84,7 +84,7 @@
 
 ### 操作步骤
 
-1. 浏览器打开`demos/react-component-demo/index2.html`，仔细查看源码。
+1. 浏览器打开[`demos/react-component-demo/index2.html`](demos/react-component-demo/index2.html)，仔细查看源码。
 
 ### 注意事项
 
@@ -102,7 +102,7 @@
 
 ### 操作步骤
 
-1. 浏览器打开`demos/react-component-demo/index3.html`，仔细查看源码。
+1. 浏览器打开[`demos/react-component-demo/index3.html`](demos/react-component-demo/index3.html)，仔细查看源码。
 
 ### 注意事项
 
@@ -150,7 +150,7 @@ handleChange(e) {
 
 ### 操作步骤
 
-1. 浏览器打开`demos/react-component-demo/index4.html`。
+1. 浏览器打开[`demos/react-component-demo/index4.html`](demos/react-component-demo/index4.html)。
 1. 点击`Hello World`，看看会发生什么。
 
 ### 练习
@@ -198,7 +198,7 @@ this.setState({
 
 ### 操作步骤
 
-1. 打开`demos/react-lifecycle-demo/index.html`，仔细查看源码。
+1. 打开[`demos/react-lifecycle-demo/index.html`](demos/react-lifecycle-demo/index.html)，仔细查看源码。
 
 ### 注意事项
 
@@ -261,7 +261,7 @@ projects.forEach(p => {
 
 ### 操作步骤
 
-1. 浏览器打开`demos/recharts-demo/index.html`，查看效果。
+1. 浏览器打开[`demos/recharts-demo/index.html`](demos/recharts-demo/index.html)，查看效果。
 
 ## MobX
 
@@ -271,7 +271,7 @@ projects.forEach(p => {
 
 ### 操作步骤
 
-（1）浏览器打开`demos/mobx-demo/browser-demo/index.html`，仔细查看源码
+（1）浏览器打开[`demos/mobx-demo/browser-demo/index.html`](demos/mobx-demo/browser-demo/index.html)，仔细查看源码
 
 （2） 命令行进入`demos/mobx-demo/`目录，执行如下的命令。
 
