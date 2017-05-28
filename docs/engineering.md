@@ -35,7 +35,7 @@ Continuous integration（简称 CI）：
 - 发现风格错误
 - 自动纠正错误
 
-![](../images/eslint.png)
+![](images/eslint.png)
 
 ---
 
