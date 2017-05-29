@@ -264,7 +264,7 @@ function normalize_paths() {
 }
 
 function show_error() {
-  console.log("SHOW ERORR!");
+  console.log("出错了!");
   $(ditto.error_id).show();
 }
 

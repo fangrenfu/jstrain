@@ -293,7 +293,7 @@ input.searchButton {
     position: fixed;
 
     height: 20px;
-    width: 75px;
+    width: 60px;
     top: 20px;
 
     margin-left: 930px;
@@ -319,8 +319,8 @@ input.searchButton {
     position: fixed;
 
     height: 17px;
-    width: 75px;
-    top: 45px;
+    width: 60px;
+    top: 50px;
 
     margin-left: 930px;
     margin-top: 0px;
