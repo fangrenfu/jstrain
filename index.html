@@ -27,12 +27,21 @@
   <div id="flip"><div id="pageup">上一章</div><div id="pagedown">下一章</div></div>
   <div class="progress-indicator-2"></div>
 
-  <script src="config.js"></script>
   <script>
-    ditto.run();
+      $(function($) {
+          ditto.document_title= "Javascript全栈工程师教程";
+          // essential settings
+          ditto.index = "README.md";
+          ditto.sidebar_file = "sidebar.md";
+          ditto.github_repo = "jstrain";        // <------- EDIT ME!!
+          ditto.highlight_code = true;       // <------- EDIT ME!!
+          ditto.base_url = "https://github.com/fangrenfu/jstrain/edit/gh-pages";
+          // run
+          ditto.run();
+      });
   </script>
   <noscript>
-    <p>《ECMAScript 6入门》是一本开源的JavaScript语言教程，全面介绍ECMAScript 6新增的语法特性。</p>
+    <p></p>
   </noscript>
 </body>
 </html>

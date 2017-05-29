@@ -36,6 +36,7 @@ var getHash = function (hash) {
   }
 
   hash = hash.split('#');
+
   return {
     nav: hash[0],
     anchor: decodeURIComponent(hash[1] || '')
@@ -77,8 +78,10 @@ function init_sidebar_section() {
         menuOL.attr('start', 0);
 
         menuOL.find('li a').map(function() {
+
             menu.push(this.href.slice(this.href.indexOf('#')));
         });
+
         $('#pageup').on('click', function() {
             var hash = getHash().nav;
             for (var i = 0; i < menu.length; i++) {
@@ -149,7 +152,7 @@ function init_edit_button() {
     $(ditto.edit_id).show();
     $(ditto.edit_id).on("click", function() {
       var hash = location.hash.replace("#", "/");
-      if (/#.*$/.test(hash)) {
+      if (/#.*$/.test(hash)) { //看得不是很明白。
         hash = hash.replace(/#.*$/, '');
       }
       if (hash === "") {
@@ -173,10 +176,10 @@ function replace_symbols(text) {
 
 function li_create_linkage(li_tag, header_level) {
   // add custom id and class attributes
+
   html_safe_tag = replace_symbols(li_tag.text());
   li_tag.attr('data-src', html_safe_tag);
   li_tag.attr("class", "link");
-
   // add click listener - on click scroll to relevant header section
   li_tag.click(function(e) {
     e.preventDefault();
@@ -190,14 +193,14 @@ function li_create_linkage(li_tag, header_level) {
 
     // highlight the relevant section
     original_color = header.css("color");
-    header.animate({ color: "#ED1C24", }, 500, function() {
+    header.animate({ color: "#ED1C24" }, 500, function() {
       // revert back to orig color
       $(this).animate({color: original_color}, 2500);
     });
     history.pushState(null, null, '#' + location.hash.split('#')[1] + '#' + li_tag.attr('data-src'));
   });
 }
-
+//在页面顶部创建目录
 function create_page_anchors() {
   // create page anchors by matching li's to headers
   // if there is a match, create click listeners
@@ -245,19 +248,18 @@ function create_page_anchors() {
 
 function normalize_paths() {
   // images
-  $(ditto.content_id + " img").map(function() {
-    var src = $(this).attr("src").replace("./", "");
-    if ($(this).attr("src").slice(0, 4) !== "http") {
-      var pathname = location.pathname.substr(0, location.pathname.length - 1);
-      var url = location.hash.replace("#", "");
+    $(ditto.content_id + " img").map(function() {
+        var src = $(this).attr("src").replace("./", "");
+        if ($(this).attr("src").slice(0, 4) !== "http") {
+            var url = location.hash.replace("#", "");
+            // split and extract base dir
+            url = url.split("/");
 
-      // split and extract base dir
-      url = url.split("/");
-      var base_dir = url.slice(0, url.length - 1).toString();
-
-      // normalize the path (i.e. make it absolute)
-      $(this).attr("src", pathname + base_dir + "/" + src);
-    }
+            var base_dir = url.slice(0, url.length -1).toString();
+            var path=location.pathname;
+            var pathname=path.substr(0,path.lastIndexOf("/")+1);
+            $(this).attr("src", pathname + base_dir + "/" + src);
+        }
   });
 }
 
@@ -280,20 +282,19 @@ function show_loading() {
 
 function router() { 
   var path = location.hash.replace(/#([^#]*)(#.*)?/, './$1');
-
   var hashArr = location.hash.split('#');
   var sectionId;
   if (hashArr.length > 2 && !(/^comment-/.test(hashArr[2]))) {
     sectionId = hashArr[2];
   }
-
+  //获得阅读进度
   if (ditto.save_progress && store.get('menu-progress') !== location.hash) {
     store.set('menu-progress', location.hash);
     store.set('page-progress', 0);
   }
 
   // default page if hash is empty
-  if (location.pathname === "/index.html") {
+  /*if (location.pathname === "/index.html") {
     path = location.pathname.replace("index.html", ditto.index);
     normalize_paths();
   } else if (path === "") {
@@ -301,8 +302,15 @@ function router() {
     normalize_paths();
   } else {
     path = path + ".md";
-  }
-
+  }*/
+    //修改以兼容多个页面
+    var str=location.pathname;
+    if (path === "") {
+        path = str.substr(0,str.lastIndexOf("/")+1) + ditto.index;
+        normalize_paths();
+    } else {
+        path = path + ".md";
+    }
   // 取消scroll事件的监听函数
   // 防止改变下面的变量perc的值
   $(window).off('scroll');
@@ -344,7 +352,7 @@ function router() {
     })();*/
 
     var perc = ditto.save_progress ? store.get('page-progress') || 0 : 0;
-
+    //如果有锚点
     if (sectionId) {
       $('html, body').animate({
         scrollTop: ($('#' + decodeURI(sectionId)).offset().top)
@@ -352,12 +360,12 @@ function router() {
     } else {
       if (location.hash !== '' || Boolean(perc)) {
         if (!Boolean(perc)) {
-          $('html, body').animate({
-            scrollTop: ($('#content').offset().top + 10)
-          }, 300);
-          $('html, body').animate({
-            scrollTop: ($('#content').offset().top)
-          }, 300);
+            $('html, body').animate({
+                scrollTop: ($('#content').offset().top +5)
+            }, 300);
+            $('html, body').animate({
+                scrollTop: ($('#content').offset().top)
+            }, 300);
         } else {
           $('html, body').animate({
             scrollTop: ($('body').height()-$(window).height())*perc
@@ -376,7 +384,6 @@ function router() {
     } else {
       $('#pagedown').css('display', 'inline-block');
     }
-
     (function() {
       var $w = $(window);
       var $prog2 = $('.progress-indicator-2');
@@ -385,7 +392,7 @@ function router() {
       var sHeight = h - wh;
       $w.on('scroll', function() {
         window.requestAnimationFrame(function(){
-          var perc = Math.max(0, Math.min(1, $w.scrollTop() / sHeight));
+          var perc = Math.max(0, Math.min(1, $w.scrollTop() / sHeight)); //不错的一个取0-1数值的办法
           updateProgress(perc);
         });
       });
