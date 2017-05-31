@@ -5,7 +5,7 @@
 整理：方仁富
 
 ## 目录
-1. [前言](/)
+1. [前言](#README)
 1. [内容介绍](#docs/introduce)
 1. [环境准备](#docs/preparation)
 1. [前端开发的历史和趋势](#docs/history)
